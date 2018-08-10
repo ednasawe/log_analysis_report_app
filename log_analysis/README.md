@@ -78,12 +78,19 @@ $ psql -d newsname -f views.sql
 ```
 
 You can check the database details:
-``` psql -d newsname ``` - To open the psql database newsname
-```\dt``` - To view the database schema, name of the database,
-            type of database, and the owner of the database. 
-```\du``` - To view the users, users' roles, attributes, and
-            access privileges
-```\l```  - To view the lists of the databases available and owner.
+
+``` psql -d newsname ``` 
+- To open the psql database newsname
+
+```\dt``` 
+- To view the database schema, name of the database,type of database, and the owner of the database. 
+
+```\du``` 
+- To view the users, users' roles, attributes, and access privileges
+
+```\l```  
+- To view the lists of the databases available and owner.
+
 
 * Step 5:
 
